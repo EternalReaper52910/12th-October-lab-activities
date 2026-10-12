@@ -1,0 +1,10 @@
+# OWASP ZAP Baseline Scan Security Gate Rules
+# Format: <rule-id>\t<action (IGNORE|INFO|WARN|FAIL)>\t<comment>
+# Configured as a Security Gate to curb future security findings
+
+10020	FAIL	Anti-CSRF / Anti-Clickjacking Header (X-Frame-Options) Missing
+10021	FAIL	X-Content-Type-Options Header Missing
+10037	FAIL	Server Leaks Information via "Server" / "X-Powered-By" HTTP response headers
+10038	FAIL	Content Security Policy (CSP) Header Not Set
+10055	WARN	CSP: Wildcard Directive
+10096	INFO	Timestamp Disclosure - Unix

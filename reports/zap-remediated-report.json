@@ -1,0 +1,12 @@
+{
+  "@version": "2.14.0",
+  "@generated": "Mon, 12 Oct 2026 09:33:59 GMT",
+  "site": [
+    {
+      "@name": "http://localhost:3002",
+      "@host": "localhost",
+      "@port": "3002",
+      "alerts": []
+    }
+  ]
+}

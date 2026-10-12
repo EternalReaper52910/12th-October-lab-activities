@@ -1,0 +1,3222 @@
+{
+  "scanDate": "2026-10-12T09:33:58.902Z",
+  "baselineTarget": "node:16.14.0-bullseye",
+  "remediatedTarget": "node:22-alpine",
+  "segregationSummary": {
+    "baselineCritical": 306,
+    "baselineHigh": 3563,
+    "baselineTotal": 3869,
+    "remediatedCritical": 0,
+    "remediatedHigh": 0,
+    "remediatedTotal": 0,
+    "reductionPercentage": "100%"
+  },
+  "criticalVulnerabilities": [
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-22945",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: use-after-free and double-free in MQTT sending"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32207",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: Unpreserved file permissions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32221",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u5",
+      "severity": "CRITICAL",
+      "title": "curl: POST following PUT confusion"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-23914",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "curl: HSTS ignored on multiple requests"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-38545",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "curl: heap based buffer overflow in the SOCKS5 proxy handshake"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1664",
+      "pkg": "dpkg",
+      "installed": "1.20.9",
+      "fixed": "1.20.10",
+      "severity": "CRITICAL",
+      "title": "Dpkg::Source::Archive in dpkg, the Debian package management system, b ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1664",
+      "pkg": "dpkg-dev",
+      "installed": "1.20.9",
+      "fixed": "1.20.10",
+      "severity": "CRITICAL",
+      "title": "Dpkg::Source::Archive in dpkg, the Debian package management system, b ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23521",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "git: gitattributes parsing integer overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-41903",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "git: Heap overflow in `git archive`, `git log --format` leading to RCE"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32002",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "CRITICAL",
+      "title": "git: Recursive clones RCE"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23521",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "git: gitattributes parsing integer overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-41903",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "git: Heap overflow in `git archive`, `git log --format` leading to RCE"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32002",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "CRITICAL",
+      "title": "git: Recursive clones RCE"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "imagemagick",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "imagemagick-6-common",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "imagemagick-6.q16",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "krb5-multidev",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-30473",
+      "pkg": "libaom0",
+      "installed": "1.0.0.errata1-3",
+      "fixed": "1.0.0.errata1-3+deb11u1",
+      "severity": "CRITICAL",
+      "title": "aom_image.c in libaom in AOMedia before 2021-04-07 frees memory that i ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-30474",
+      "pkg": "libaom0",
+      "installed": "1.0.0.errata1-3",
+      "fixed": "1.0.0.errata1-3+deb11u1",
+      "severity": "CRITICAL",
+      "title": "aom_dsp/grain_table.c in libaom in AOMedia before 2021-03-30 has a use ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-30475",
+      "pkg": "libaom0",
+      "installed": "1.0.0.errata1-3",
+      "fixed": "1.0.0.errata1-3+deb11u1",
+      "severity": "CRITICAL",
+      "title": "aom_dsp/noise_model.c in libaom in AOMedia before 2021-03-24 has a buf ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-6879",
+      "pkg": "libaom0",
+      "installed": "1.0.0.errata1-3",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "aom: heap-buffer-overflow on frame size change"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-5171",
+      "pkg": "libaom0",
+      "installed": "1.0.0.errata1-3",
+      "fixed": "1.0.0.errata1-3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "libaom: Integer overflow in internal function img_alloc_helper"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-24963",
+      "pkg": "libapr1",
+      "installed": "1.7.0-6+deb11u1",
+      "fixed": "1.7.0-6+deb11u2",
+      "severity": "CRITICAL",
+      "title": "apr: integer overflow/wraparound in apr_encode"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-33574",
+      "pkg": "libc-bin",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: mq_notify does not handle separately allocated thread attributes"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23218",
+      "pkg": "libc-bin",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in svcunix_create via long pathnames"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23219",
+      "pkg": "libc-bin",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-33574",
+      "pkg": "libc-dev-bin",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: mq_notify does not handle separately allocated thread attributes"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23218",
+      "pkg": "libc-dev-bin",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in svcunix_create via long pathnames"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23219",
+      "pkg": "libc-dev-bin",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-33574",
+      "pkg": "libc6",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: mq_notify does not handle separately allocated thread attributes"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23218",
+      "pkg": "libc6",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in svcunix_create via long pathnames"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23219",
+      "pkg": "libc6",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-33574",
+      "pkg": "libc6-dev",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: mq_notify does not handle separately allocated thread attributes"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23218",
+      "pkg": "libc6-dev",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in svcunix_create via long pathnames"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-23219",
+      "pkg": "libc6-dev",
+      "installed": "2.31-13+deb11u2",
+      "fixed": "2.31-13+deb11u3",
+      "severity": "CRITICAL",
+      "title": "glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-22945",
+      "pkg": "libcurl3-gnutls",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: use-after-free and double-free in MQTT sending"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32207",
+      "pkg": "libcurl3-gnutls",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: Unpreserved file permissions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32221",
+      "pkg": "libcurl3-gnutls",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u5",
+      "severity": "CRITICAL",
+      "title": "curl: POST following PUT confusion"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-23914",
+      "pkg": "libcurl3-gnutls",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "curl: HSTS ignored on multiple requests"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-38545",
+      "pkg": "libcurl3-gnutls",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "curl: heap based buffer overflow in the SOCKS5 proxy handshake"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-22945",
+      "pkg": "libcurl4",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: use-after-free and double-free in MQTT sending"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32207",
+      "pkg": "libcurl4",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: Unpreserved file permissions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32221",
+      "pkg": "libcurl4",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u5",
+      "severity": "CRITICAL",
+      "title": "curl: POST following PUT confusion"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-23914",
+      "pkg": "libcurl4",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "curl: HSTS ignored on multiple requests"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-38545",
+      "pkg": "libcurl4",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "curl: heap based buffer overflow in the SOCKS5 proxy handshake"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-22945",
+      "pkg": "libcurl4-openssl-dev",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: use-after-free and double-free in MQTT sending"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32207",
+      "pkg": "libcurl4-openssl-dev",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "curl: Unpreserved file permissions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-32221",
+      "pkg": "libcurl4-openssl-dev",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u5",
+      "severity": "CRITICAL",
+      "title": "curl: POST following PUT confusion"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-23914",
+      "pkg": "libcurl4-openssl-dev",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "curl: HSTS ignored on multiple requests"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-38545",
+      "pkg": "libcurl4-openssl-dev",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "curl: heap based buffer overflow in the SOCKS5 proxy handshake"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2019-8457",
+      "pkg": "libdb5.3",
+      "installed": "5.3.28+dfsg1-0.8",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "sqlite: heap out-of-bound read in function rtreenode()"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2019-8457",
+      "pkg": "libdb5.3-dev",
+      "installed": "5.3.28+dfsg1-0.8",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "sqlite: heap out-of-bound read in function rtreenode()"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1253",
+      "pkg": "libde265-0",
+      "installed": "1.0.8-1",
+      "fixed": "1.0.11-0+deb11u1",
+      "severity": "CRITICAL",
+      "title": "Heap-based Buffer Overflow in GitHub repository strukturag/libde265 pr ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1664",
+      "pkg": "libdpkg-perl",
+      "installed": "1.20.9",
+      "fixed": "1.20.10",
+      "severity": "CRITICAL",
+      "title": "Dpkg::Source::Archive in dpkg, the Debian package management system, b ..."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-45491",
+      "pkg": "libexpat1",
+      "installed": "2.2.10-2+deb11u2",
+      "fixed": "2.2.10-2+deb11u6",
+      "severity": "CRITICAL",
+      "title": "libexpat: Integer Overflow or Wraparound"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-45492",
+      "pkg": "libexpat1",
+      "installed": "2.2.10-2+deb11u2",
+      "fixed": "2.2.10-2+deb11u6",
+      "severity": "CRITICAL",
+      "title": "libexpat: integer overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-45491",
+      "pkg": "libexpat1-dev",
+      "installed": "2.2.10-2+deb11u2",
+      "fixed": "2.2.10-2+deb11u6",
+      "severity": "CRITICAL",
+      "title": "libexpat: Integer Overflow or Wraparound"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-45492",
+      "pkg": "libexpat1-dev",
+      "installed": "2.2.10-2+deb11u2",
+      "fixed": "2.2.10-2+deb11u6",
+      "severity": "CRITICAL",
+      "title": "libexpat: integer overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-27404",
+      "pkg": "libfreetype-dev",
+      "installed": "2.10.4+dfsg-1",
+      "fixed": "2.10.4+dfsg-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "FreeType: Buffer overflow in sfnt_init_face"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-27404",
+      "pkg": "libfreetype6",
+      "installed": "2.10.4+dfsg-1",
+      "fixed": "2.10.4+dfsg-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "FreeType: Buffer overflow in sfnt_init_face"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-27404",
+      "pkg": "libfreetype6-dev",
+      "installed": "2.10.4+dfsg-1",
+      "fixed": "2.10.4+dfsg-1+deb11u1",
+      "severity": "CRITICAL",
+      "title": "FreeType: Buffer overflow in sfnt_init_face"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-14087",
+      "pkg": "libglib2.0-0",
+      "installed": "2.66.8-1",
+      "fixed": "2.66.8-1+deb11u7",
+      "severity": "CRITICAL",
+      "title": "glib: GLib: Buffer underflow in GVariant parser leads to heap corruption"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-58016",
+      "pkg": "libglib2.0-0",
+      "installed": "2.66.8-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "glib: integer underflow in gio/gdbusintrospection.c via \"g_dbus_node_info_new_for_xml\""
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-14087",
+      "pkg": "libglib2.0-bin",
+      "installed": "2.66.8-1",
+      "fixed": "2.66.8-1+deb11u7",
+      "severity": "CRITICAL",
+      "title": "glib: GLib: Buffer underflow in GVariant parser leads to heap corruption"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-58016",
+      "pkg": "libglib2.0-bin",
+      "installed": "2.66.8-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "glib: integer underflow in gio/gdbusintrospection.c via \"g_dbus_node_info_new_for_xml\""
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-14087",
+      "pkg": "libglib2.0-data",
+      "installed": "2.66.8-1",
+      "fixed": "2.66.8-1+deb11u7",
+      "severity": "CRITICAL",
+      "title": "glib: GLib: Buffer underflow in GVariant parser leads to heap corruption"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-58016",
+      "pkg": "libglib2.0-data",
+      "installed": "2.66.8-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "glib: integer underflow in gio/gdbusintrospection.c via \"g_dbus_node_info_new_for_xml\""
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-14087",
+      "pkg": "libglib2.0-dev",
+      "installed": "2.66.8-1",
+      "fixed": "2.66.8-1+deb11u7",
+      "severity": "CRITICAL",
+      "title": "glib: GLib: Buffer underflow in GVariant parser leads to heap corruption"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-58016",
+      "pkg": "libglib2.0-dev",
+      "installed": "2.66.8-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "glib: integer underflow in gio/gdbusintrospection.c via \"g_dbus_node_info_new_for_xml\""
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-14087",
+      "pkg": "libglib2.0-dev-bin",
+      "installed": "2.66.8-1",
+      "fixed": "2.66.8-1+deb11u7",
+      "severity": "CRITICAL",
+      "title": "glib: GLib: Buffer underflow in GVariant parser leads to heap corruption"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-58016",
+      "pkg": "libglib2.0-dev-bin",
+      "installed": "2.66.8-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "glib: integer underflow in gio/gdbusintrospection.c via \"g_dbus_node_info_new_for_xml\""
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-33845",
+      "pkg": "libgnutls30",
+      "installed": "3.7.1-5",
+      "fixed": "3.7.1-5+deb11u10",
+      "severity": "CRITICAL",
+      "title": "gnutls: GnuTLS: Denial of Service via DTLS zero-length fragment"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42010",
+      "pkg": "libgnutls30",
+      "installed": "3.7.1-5",
+      "fixed": "3.7.1-5+deb11u10",
+      "severity": "CRITICAL",
+      "title": "gnutls: gnutls: Authentication Bypass via NUL Character in Username"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libgssapi-krb5-2",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libgssrpc4",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-84383",
+      "pkg": "libheif1",
+      "installed": "1.11.0-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "libheif: libheif: Heap buffer overflow in `scale_nearest_neighbor()` via duplicate Alpha planes from nested `iden`/`auxl` items"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libk5crypto3",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libkadm5clnt-mit12",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libkadm5srv-mit12",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libkdb5-10",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libkrb5-3",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libkrb5-dev",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-37371",
+      "pkg": "libkrb5support0",
+      "installed": "1.18.3-6+deb11u1",
+      "fixed": "1.18.3-6+deb11u5",
+      "severity": "CRITICAL",
+      "title": "krb5: GSS message token handling"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-3515",
+      "pkg": "libksba8",
+      "installed": "1.5.0-3",
+      "fixed": "1.5.0-3+deb11u1",
+      "severity": "CRITICAL",
+      "title": "libksba: integer overflow may lead to remote code execution"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-47629",
+      "pkg": "libksba8",
+      "installed": "1.5.0-3",
+      "fixed": "1.5.0-3+deb11u2",
+      "severity": "CRITICAL",
+      "title": "libksba: integer overflow to code execution"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-29155",
+      "pkg": "libldap-2.4-2",
+      "installed": "2.4.57+dfsg-3",
+      "fixed": "2.4.57+dfsg-3+deb11u1",
+      "severity": "CRITICAL",
+      "title": "openldap: OpenLDAP SQL injection"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickcore-6-arch-config",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickcore-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickcore-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickcore-6.q16-6-extra",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickcore-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickcore-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickwand-6-headers",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickwand-6.q16-6",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickwand-6.q16-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53014",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Heap Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-53101",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick Stack Buffer Overflow"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-57807",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u6",
+      "severity": "CRITICAL",
+      "title": "imagemagick: ImageMagick BlobStream Forward-Seek Under-Allocation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23876",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u9",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Arbitrary code execution via a crafted XBM image file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25897",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds heap write via integer overflow in sun decoder"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25898",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Information disclosure or denial of service via crafted image with invalid pixel index"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25968",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory corruption via stack buffer overflow when processing an attribute"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25971",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via circular references in MSL files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25983",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of service via crafted MSL script"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25986",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Denial of Service via malicious YUV image processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-25987",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u10",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Memory disclosure and denial of service via crafted MAP files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-26284",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u11",
+      "severity": "CRITICAL",
+      "title": "ImageMagick: ImageMagick: Out-of-bounds read via crafted Photo CD (PCD) files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-56367",
+      "pkg": "libmagickwand-dev",
+      "installed": "8:6.9.11.60+dfsg-1.3",
+      "fixed": "8:6.9.11.60+dfsg-1.3+deb11u15",
+      "severity": "CRITICAL",
+      "title": "Magick.NET-Q16-AnyCPU: Magick.NET-Q16-HDRI-AnyCPU: Magick.NET-Q16-HDRI-OpenMP-arm64: Magick.NET-Q16-HDRI-OpenMP-x64: Magick.NET-Q16-HDRI-arm64: Magick.NET-Q16-HDRI-x64: Magick.NET-Q16-HDRI-x86: Magick.NET-Q16-OpenMP-arm64: Magick.NET-Q16-OpenMP-x64: Magick.NET-Q16-OpenMP-x86: Magick.NET-Q16-arm64: Magick.NET-Q16-x64: Magick.NET-Q16-x86: Magick.NET-Q8-AnyCPU: Magick.NET-Q8-OpenMP-arm64: Magick.NET-Q8-OpenMP-x64: Magick.NET-Q8-arm64: Magick.NET-Q8-x64: Magick.NET-Q8-x86: ImageMagick: Information Disclosure via Crafted PSB File"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42216",
+      "pkg": "libopenexr-dev",
+      "installed": "2.5.4-2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "OpenEXR: OpenEXR: Information disclosure and denial of service via malformed EXR files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42217",
+      "pkg": "libopenexr-dev",
+      "installed": "2.5.4-2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "OpenEXR: OpenEXR: Information disclosure via malformed EXR image file processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42216",
+      "pkg": "libopenexr25",
+      "installed": "2.5.4-2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "OpenEXR: OpenEXR: Information disclosure and denial of service via malformed EXR files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42217",
+      "pkg": "libopenexr25",
+      "installed": "2.5.4-2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "OpenEXR: OpenEXR: Information disclosure via malformed EXR image file processing"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1586",
+      "pkg": "libpcre2-16-0",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1587",
+      "pkg": "libpcre2-16-0",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1586",
+      "pkg": "libpcre2-32-0",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1587",
+      "pkg": "libpcre2-32-0",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1586",
+      "pkg": "libpcre2-8-0",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1587",
+      "pkg": "libpcre2-8-0",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1586",
+      "pkg": "libpcre2-dev",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1587",
+      "pkg": "libpcre2-dev",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1586",
+      "pkg": "libpcre2-posix2",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1587",
+      "pkg": "libpcre2-posix2",
+      "installed": "10.36-2",
+      "fixed": "10.36-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-13221",
+      "pkg": "libperl5.32",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Incorrect regular expression processing via large regular expressions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42496",
+      "pkg": "libperl5.32",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8376",
+      "pkg": "libperl5.32",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-29921",
+      "pkg": "libpython3.9-minimal",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u2",
+      "severity": "CRITICAL",
+      "title": "python-ipaddress: Improper input validation of octal strings"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-37454",
+      "pkg": "libpython3.9-minimal",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u4",
+      "severity": "CRITICAL",
+      "title": "XKCP: buffer overflow in the SHA-3 reference implementation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-29921",
+      "pkg": "libpython3.9-stdlib",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u2",
+      "severity": "CRITICAL",
+      "title": "python-ipaddress: Improper input validation of octal strings"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-37454",
+      "pkg": "libpython3.9-stdlib",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u4",
+      "severity": "CRITICAL",
+      "title": "XKCP: buffer overflow in the SHA-3 reference implementation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-46848",
+      "pkg": "libtasn1-6",
+      "installed": "4.16.0-2",
+      "fixed": "4.16.0-2+deb11u1",
+      "severity": "CRITICAL",
+      "title": "libtasn1: Out-of-bound access in ETYPE_OK"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-56171",
+      "pkg": "libxml2",
+      "installed": "2.9.10+dfsg-6.7",
+      "fixed": "2.9.10+dfsg-6.7+deb11u6",
+      "severity": "CRITICAL",
+      "title": "libxml2: Use-After-Free in libxml2"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-6653",
+      "pkg": "libxml2",
+      "installed": "2.9.10+dfsg-6.7",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "libxml2: mingw-libxml2: libxml2: Denial of Service via crafted XML input due to use-after-free"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-56171",
+      "pkg": "libxml2-dev",
+      "installed": "2.9.10+dfsg-6.7",
+      "fixed": "2.9.10+dfsg-6.7+deb11u6",
+      "severity": "CRITICAL",
+      "title": "libxml2: Use-After-Free in libxml2"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-6653",
+      "pkg": "libxml2-dev",
+      "installed": "2.9.10+dfsg-6.7",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "libxml2: mingw-libxml2: libxml2: Denial of Service via crafted XML input due to use-after-free"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-25775",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "5.10.205-2",
+      "severity": "CRITICAL",
+      "title": "kernel: irdma: Improper access control"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-54257",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "5.10.178-1",
+      "severity": "CRITICAL",
+      "title": "kernel: Linux kernel: macb Ethernet driver memory corruption leads to denial of service."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-47685",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "5.10.234-1",
+      "severity": "CRITICAL",
+      "title": "kernel: netfilter: nf_reject_ipv6: fix nf_reject_ip6_tcphdr_put()"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-23112",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "5.10.257-1",
+      "severity": "CRITICAL",
+      "title": "kernel: nvmet-tcp: add bounds checks in nvmet_tcp_build_pdu_iovec"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-43011",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "5.10.257-1",
+      "severity": "CRITICAL",
+      "title": "kernel: net/x25: Fix potential double free of skb"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-43037",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "5.10.257-1",
+      "severity": "CRITICAL",
+      "title": "kernel: ip6_tunnel: clear skb2->cb[] in ip4ip6_err()"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-53215",
+      "pkg": "linux-libc-dev",
+      "installed": "5.10.92-1",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "kernel: net: mvpp2: refill RX buffers before XDP or skb use"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-38408",
+      "pkg": "openssh-client",
+      "installed": "1:8.4p1-5",
+      "fixed": "1:8.4p1-5+deb11u2",
+      "severity": "CRITICAL",
+      "title": "openssh: Remote code execution in ssh-agent PKCS#11 support"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-60002",
+      "pkg": "openssh-client",
+      "installed": "1:8.4p1-5",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "openssh: OpenSSH: Use-after-free vulnerability during host key re-exchange on the client side"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-13221",
+      "pkg": "perl",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Incorrect regular expression processing via large regular expressions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42496",
+      "pkg": "perl",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8376",
+      "pkg": "perl",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-13221",
+      "pkg": "perl-base",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Incorrect regular expression processing via large regular expressions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42496",
+      "pkg": "perl-base",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8376",
+      "pkg": "perl-base",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-13221",
+      "pkg": "perl-modules-5.32",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Incorrect regular expression processing via large regular expressions"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-42496",
+      "pkg": "perl-modules-5.32",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8376",
+      "pkg": "perl-modules-5.32",
+      "installed": "5.32.1-4+deb11u2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-29921",
+      "pkg": "python3.9",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u2",
+      "severity": "CRITICAL",
+      "title": "python-ipaddress: Improper input validation of octal strings"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-37454",
+      "pkg": "python3.9",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u4",
+      "severity": "CRITICAL",
+      "title": "XKCP: buffer overflow in the SHA-3 reference implementation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-29921",
+      "pkg": "python3.9-minimal",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u2",
+      "severity": "CRITICAL",
+      "title": "python-ipaddress: Improper input validation of octal strings"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-37454",
+      "pkg": "python3.9-minimal",
+      "installed": "3.9.2-1",
+      "fixed": "3.9.2-1+deb11u4",
+      "severity": "CRITICAL",
+      "title": "XKCP: buffer overflow in the SHA-3 reference implementation"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-38428",
+      "pkg": "wget",
+      "installed": "1.21-1+deb11u1",
+      "fixed": "1.21-1+deb11u2",
+      "severity": "CRITICAL",
+      "title": "wget: Misinterpretation of input may lead to improper behavior"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-37434",
+      "pkg": "zlib1g",
+      "installed": "1:1.2.11.dfsg-2",
+      "fixed": "1:1.2.11.dfsg-2+deb11u2",
+      "severity": "CRITICAL",
+      "title": "zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-45853",
+      "pkg": "zlib1g",
+      "installed": "1:1.2.11.dfsg-2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "zlib: integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_6"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-37434",
+      "pkg": "zlib1g-dev",
+      "installed": "1:1.2.11.dfsg-2",
+      "fixed": "1:1.2.11.dfsg-2+deb11u2",
+      "severity": "CRITICAL",
+      "title": "zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-45853",
+      "pkg": "zlib1g-dev",
+      "installed": "1:1.2.11.dfsg-2",
+      "fixed": "None/Unfixed",
+      "severity": "CRITICAL",
+      "title": "zlib: integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_6"
+    },
+    {
+      "target": "Node.js",
+      "cve": "CVE-2026-59873",
+      "pkg": "tar",
+      "installed": "6.1.11",
+      "fixed": "7.5.19",
+      "severity": "CRITICAL",
+      "title": "tar: node-tar: Denial of Service via crafted gzip bomb"
+    }
+  ],
+  "topHighVulnerabilities": [
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-3715",
+      "pkg": "bash",
+      "installed": "5.1-2+b3",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "bash: a heap-buffer-overflow in valid_parameter_transform"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-53613",
+      "pkg": "bsdutils",
+      "installed": "1:2.36.1-8+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-76642",
+      "pkg": "bsdutils",
+      "installed": "1:2.36.1-8+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-78408",
+      "pkg": "bsdutils",
+      "installed": "1:2.36.1-8+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-78409",
+      "pkg": "bsdutils",
+      "installed": "1:2.36.1-8+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-78410",
+      "pkg": "bsdutils",
+      "installed": "1:2.36.1-8+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1304",
+      "pkg": "comerr-dev",
+      "installed": "2.1-1.46.2-2",
+      "fixed": "1.46.2-2+deb11u1",
+      "severity": "HIGH",
+      "title": "e2fsprogs: out-of-bounds read/write via crafted filesystem"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-22946",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "HIGH",
+      "title": "curl: Requirement to use TLS not properly enforced for IMAP, POP3, and FTP protocols"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-22576",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "HIGH",
+      "title": "curl: OAUTH2 bearer bypass in connection re-use"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-27775",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "HIGH",
+      "title": "curl: bad local IPv6 connection reuse"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-27781",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "HIGH",
+      "title": "curl: CERTINFO never-ending busy-loop"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-27782",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u2",
+      "severity": "HIGH",
+      "title": "curl: TLS and SSH connection too eager reuse"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-42916",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: HSTS bypass via IDN"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-43551",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: HSTS bypass via IDN"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-27533",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u8",
+      "severity": "HIGH",
+      "title": "curl: TELNET option IAC injection"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-27534",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "7.74.0-1.3+deb11u8",
+      "severity": "HIGH",
+      "title": "curl: SFTP path ~ resolving discrepancy"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-5773",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-6276",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8286",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: curl: Insecure connection establishment due to TLS configuration mismatch"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8458",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: libcurl: Unauthorized connection reuse due to a logical error"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-8927",
+      "pkg": "curl",
+      "installed": "7.74.0-1.3+deb11u1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "curl: Information disclosure due to uncleared proxy authentication state"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-68973",
+      "pkg": "dirmngr",
+      "installed": "2.2.27-2",
+      "fixed": "2.2.27-2+deb11u3",
+      "severity": "HIGH",
+      "title": "GnuPG: GnuPG: Information disclosure and potential arbitrary code execution via out-of-bounds write"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-1304",
+      "pkg": "e2fsprogs",
+      "installed": "1.46.2-2",
+      "fixed": "1.46.2-2+deb11u1",
+      "severity": "HIGH",
+      "title": "e2fsprogs: out-of-bounds read/write via crafted filesystem"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-44648",
+      "pkg": "gir1.2-gdkpixbuf-2.0",
+      "installed": "2.42.2+dfsg-1",
+      "fixed": "2.42.2+dfsg-1+deb11u1",
+      "severity": "HIGH",
+      "title": "gdk-pixbuf: heap-buffer overflow when decoding the lzw compressed stream of image data"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2021-46829",
+      "pkg": "gir1.2-gdkpixbuf-2.0",
+      "installed": "2.42.2+dfsg-1",
+      "fixed": "2.42.2+dfsg-1+deb11u1",
+      "severity": "HIGH",
+      "title": "gdk-pixbuf: heap-based buffer overflow when compositing or clearing frames in GIF files"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-48622",
+      "pkg": "gir1.2-gdkpixbuf-2.0",
+      "installed": "2.42.2+dfsg-1",
+      "fixed": "2.42.2+dfsg-1+deb11u2",
+      "severity": "HIGH",
+      "title": "gnome: heap memory corruption on gdk-pixbuf"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-5201",
+      "pkg": "gir1.2-gdkpixbuf-2.0",
+      "installed": "2.42.2+dfsg-1",
+      "fixed": "2.42.2+dfsg-1+deb11u5",
+      "severity": "HIGH",
+      "title": "gdk-pixbuf: gdk-pixbuf: Denial of Service via heap-based buffer overflow when processing a specially crafted JPEG image"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2026-96889",
+      "pkg": "gir1.2-rsvg-2.0",
+      "installed": "2.50.3+dfsg-1",
+      "fixed": "None/Unfixed",
+      "severity": "HIGH",
+      "title": "librsvg: Use-after-free when XML includes have duplicated entities"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2019-1387",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: Remote code execution in recursive clones with nested submodules"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-24765",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "HIGH",
+      "title": "git: On multi-user machines Git users might find themselves unexpectedly in a Git worktree"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-29187",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "HIGH",
+      "title": "git: Bypass of safe.directory protections"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-39260",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "HIGH",
+      "title": "git: git shell function that splits command arguments can lead to arbitrary heap writes."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-23946",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u2",
+      "severity": "HIGH",
+      "title": "git: git apply: a path outside the working tree can be overwritten with crafted input"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-25652",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: by feeding specially crafted input to `git apply --reject`, a path outside the working tree can be overwritten with partially controlled contents"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-29007",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: arbitrary configuration injection when renaming or deleting a section from a configuration file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32004",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: RCE while cloning local repos"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32021",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: symlink bypass"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32465",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: additional local RCE"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-52006",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u4",
+      "severity": "HIGH",
+      "title": "git: Newline confusion in credential helpers can lead to credential exfiltration in git"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2025-48384",
+      "pkg": "git",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u5",
+      "severity": "HIGH",
+      "title": "git: Git arbitrary code execution"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2019-1387",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: Remote code execution in recursive clones with nested submodules"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-24765",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "HIGH",
+      "title": "git: On multi-user machines Git users might find themselves unexpectedly in a Git worktree"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-29187",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "HIGH",
+      "title": "git: Bypass of safe.directory protections"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2022-39260",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u1",
+      "severity": "HIGH",
+      "title": "git: git shell function that splits command arguments can lead to arbitrary heap writes."
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-23946",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u2",
+      "severity": "HIGH",
+      "title": "git: git apply: a path outside the working tree can be overwritten with crafted input"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-25652",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: by feeding specially crafted input to `git apply --reject`, a path outside the working tree can be overwritten with partially controlled contents"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2023-29007",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: arbitrary configuration injection when renaming or deleting a section from a configuration file"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32004",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: RCE while cloning local repos"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32021",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: symlink bypass"
+    },
+    {
+      "target": "node:16.14.0-bullseye (debian 11.2)",
+      "cve": "CVE-2024-32465",
+      "pkg": "git-man",
+      "installed": "1:2.30.2-1",
+      "fixed": "1:2.30.2-1+deb11u3",
+      "severity": "HIGH",
+      "title": "git: additional local RCE"
+    }
+  ]
+}

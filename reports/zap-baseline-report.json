@@ -1,0 +1,37 @@
+{
+  "@version": "2.14.0",
+  "@generated": "Mon, 12 Oct 2026 09:33:59 GMT",
+  "site": [
+    {
+      "@name": "http://localhost:3001",
+      "@host": "localhost",
+      "@port": "3001",
+      "alerts": [
+        {
+          "pluginid": "10038",
+          "alert": "Content Security Policy (CSP) Header Not Set",
+          "riskdesc": "Medium (High)",
+          "cweid": "693"
+        },
+        {
+          "pluginid": "10020",
+          "alert": "Anti-Clickjacking Header (X-Frame-Options) Missing",
+          "riskdesc": "Medium (Medium)",
+          "cweid": "1021"
+        },
+        {
+          "pluginid": "10021",
+          "alert": "X-Content-Type-Options Header Missing",
+          "riskdesc": "Low (Medium)",
+          "cweid": "693"
+        },
+        {
+          "pluginid": "10037",
+          "alert": "Server Leaks Version Information via \"X-Powered-By\" Header",
+          "riskdesc": "Low (High)",
+          "cweid": "200"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# ==============================================================================
+# LAB ACTIVITY 1: Initial Unhardened Dockerfile (Vulnerable Baseline)
+# Base Image: node:16.14.0-bullseye (Contains numerous known CVEs, unpatched OS packages)
+# Security Deficiencies:
+# 1. Runs as root (no least-privilege user)
+# 2. Heavy Debian distribution with unnecessary packages (curl, git, compilers, perl)
+# 3. Old Node.js runtime with obsolete dependencies
+# ==============================================================================
+FROM node:16.14.0-bullseye
+
+WORKDIR /usr/src/app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["node", "src/server.js"]

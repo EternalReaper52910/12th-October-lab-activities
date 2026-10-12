@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 coverage/
 *.log
+bin/
+*.zip
+reports/trivy-initial-report.json
+reports/trivy-initial-report.txt

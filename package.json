@@ -4,8 +4,11 @@
   "description": "DevSecOps Lab Activity 1 - Multi-branch application with CI/CD & SAST",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "test": "node --test test/*.test.js"
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "scan:trivy": "node scripts/parse-trivy.js",
+    "scan:dast": "node scripts/test-dast-scenarios.js",
+    "security-gate": "node scripts/run-security-gates.js"
   },
   "keywords": [
     "devsecops",
@@ -14,5 +17,9 @@
     "testing"
   ],
   "author": "EternalReaper52910",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0",
+    "helmet": "^8.3.0"
+  }
 }
